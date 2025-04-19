@@ -14,7 +14,7 @@ class Animalito{
     hacerSonido(): void{
         console.log(`${this.nombre} está haciendo un sonido`);
     }
-};
+}
 
 const perro = new Animalito("Firulais", "Perro");
 perro.hacerSonido()

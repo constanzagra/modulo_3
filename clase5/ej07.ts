@@ -18,7 +18,7 @@ class Auto{
     mostrarInformacion(): void{
         console.log(`El ${this.marca} ${this.modelo} está disponible para retiro inmediato`);
     }
-};
+}
 
 const miCoche = new Auto("Toyota", "Corolla", 20000);
 miCoche.mostrarInformacion();

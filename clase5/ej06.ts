@@ -13,7 +13,7 @@ class Mariposa{
     }
 
     volar: () => void
-};
+}
 
 const mariposa1 = new Mariposa("mariposita", "blanca");
 mariposa1.volar();
